@@ -2,28 +2,28 @@
 
 ## Student Details
 
-* **Name:** Ishani Sahay
-* **Registration Number:** 24BCE10422
-* **Course:** Open Source Software (OSS NGMC)
-* **Chosen Software:** Git
+* Name: Ishani Sahay
+* Registration Number: 24BCE10422
+* Course: Open Source Software (OSS NGMC)
+* Chosen Software: Git
 
 ---
 
 ## Project Overview
 
-This project presents a structured audit of **Git**, a widely used open-source version control system. The objective is to understand its origin, licensing model, ethical implications, Linux implementation, and its role in the open-source ecosystem.
+This project presents a structured audit of Git, a widely used open-source version control system. The report covers its origin, licensing model, ethical considerations, Linux implementation, and role in the open-source ecosystem.
 
-The project also includes five shell scripts that demonstrate practical Linux and automation skills, reflecting the principles of open-source transparency and collaboration.
+The project also includes five shell scripts that demonstrate practical Linux and automation skills.
 
 ---
 
 ## Report Sections
 
-###  Part A — Origin and Philosophy
+### Part A — Origin and Philosophy
 
 * Problem that led to the creation of Git
 * GNU GPL v2 license and its implications
-* Ethical considerations of open-source software
+* Ethical aspects of open-source software
 
 ### Part B — Linux Footprint
 
@@ -35,7 +35,7 @@ The project also includes five shell scripts that demonstrate practical Linux an
 
 * Dependencies and supporting tools
 * Platforms built on Git (GitHub, GitLab)
-* Role in modern software development and LAMP stack
+* Role in modern development
 
 ### Part D — Open Source vs Proprietary
 
@@ -44,63 +44,55 @@ The project also includes five shell scripts that demonstrate practical Linux an
 
 ---
 
-##  Shell Scripts
+## Shell Scripts
 
-###  Script 1 — System Identity Report
+### Script 1 — System Identity Report
 
-Displays system information such as:
-
-* Kernel version
-* Logged-in user
-* Uptime
-* Date and Linux distribution
+Displays system information such as kernel version, logged-in user, uptime, date, and Linux distribution.
+Concepts used: variables, command substitution, echo.
 
 ---
 
-###  Script 2 — FOSS Package Inspector
+### Script 2 — FOSS Package Inspector
 
-* Checks whether Git is installed
-* Displays version information
-* Uses case statement for software description
+Checks whether Git is installed and displays its version.
+Concepts used: if-else, case statement, command checking.
 
 ---
 
-###  Script 3 — Disk and Permission Auditor
+### Script 3 — Disk and Permission Auditor
 
-* Analyzes key system directories
-* Displays permissions, ownership, and size
-* Checks Git configuration file
+Analyzes important system directories and shows permissions and size.
+Concepts used: for loop, file checks, awk, du.
 
 ---
 
 ### Script 4 — Log File Analyzer
 
-* Reads log file line by line
-* Counts occurrences of a keyword (default: error)
-* Displays last 5 matching lines
+Counts occurrences of a keyword in a log file and displays matching lines.
+Concepts used: while loop, grep, counters.
 
 ---
 
-###  Script 5 — Open Source Manifesto Generator
+### Script 5 — Open Source Manifesto Generator
 
-* Takes user input interactively
-* Generates a personalized open-source statement
-* Saves output to a text file
+Generates a personalized open-source statement using user input.
+Concepts used: read (user input), file handling, variables.
 
 ---
 
-##  How to Run the Scripts
+## How to Run the Scripts
 
-1. Open terminal in Linux
-2. Navigate to project directory
+These scripts are designed to run on a Linux system.
+
+1. Open terminal
+
+2. Navigate to the project directory
+
 3. Give execution permission:
 
 ```bash
-chmod +x script1.sh
-chmod +x script2.sh
-chmod +x script3.sh
-chmod +x script4.sh
-chmod +x script5.sh
+chmod +x script1.sh script2.sh script3.sh script4.sh script5.sh
 ```
 
 4. Run scripts:
@@ -109,30 +101,30 @@ chmod +x script5.sh
 ./script1.sh
 ./script2.sh
 ./script3.sh
-./script4.sh <logfile>
+./script4.sh /var/log/syslog
 ./script5.sh
 ```
 
 ---
 
-##  System Requirements
+## System Requirements
 
-* Linux OS (Ubuntu / Debian recommended)
+* Linux OS (Ubuntu or Debian recommended)
 * Bash shell
 * Basic command-line knowledge
 
 ---
 
-##  Key Learnings
+## Key Learnings
 
 * Understanding open-source philosophy and licensing
-* Hands-on experience with Linux commands
+* Hands-on experience with Linux systems
 * Practical shell scripting skills
-* Real-world use of Git in development workflows
+* Use of Git in real-world development workflows
 
 ---
 
-##  Repository Structure
+## Repository Structure
 
 ```
 oss-audit-24BCE10422/
@@ -147,17 +139,14 @@ oss-audit-24BCE10422/
 
 ---
 
-##  Conclusion
+## Conclusion
 
-This project helped in understanding how open-source tools like Git enable collaboration, transparency, and innovation in modern software development. It also strengthened practical Linux and scripting skills.
+This project helped in understanding how open-source tools like Git enable collaboration, transparency, and continuous improvement. It also strengthened practical Linux and scripting skills.
 
 ---
 
-##  References
+## References
 
 * GNU Official Website
 * Git Documentation
 * Linux Manual Pages
-
----
-
